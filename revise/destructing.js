@@ -1,3 +1,4 @@
+// Destructuring in JS
 const person = {
     name: 'Max',
     age: 29,
@@ -20,4 +21,5 @@ console.log(name, age);
 const hobbies = ['Sports', 'Cooking'];
 const [hobby1, hobby2] = hobbies;
 console.log(hobby1, hobby2);
-//op: 
+//op: Sports Cooking
+

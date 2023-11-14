@@ -23,3 +23,4 @@ const scndArr = (...args) => {
 }
 
 console.log(scndArr(1,2,3,4));
+// op: [ 1, 2, 3, 4 ]
