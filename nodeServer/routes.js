@@ -11,7 +11,6 @@ const requestHandeler = (req, res) => {
         res.write('</html>');
         return res.end();
     }
-
     // if there is a 'POST' request on 'localhost:5000/message' 
     if (url === '/message' && method === "POST") {
         const body = [];
